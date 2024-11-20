@@ -28,13 +28,13 @@ function App() {
   };
 
   const handleSpanish = async () => {
-    setLanguage("Spanish");
+    setLanguage(spanish.language);
   };
   const handleFrench = async () => {
-    setLanguage("French");
+    setLanguage(french.language);
   };
   const handleChinese = async () => {
-    setLanguage("Chinese");
+    setLanguage(chinese.language);
   };
 
   const handleClick = async () => {
