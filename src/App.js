@@ -19,15 +19,15 @@ function App() {
     ponumber: 1,
     podate: 1,
     description: "Hola a todas",
+    language: "Spanish",
     languageCode: "es",
-    language: "fr",
   };
   const chinese = {
     ponumber: 1,
     podate: "24/09/95",
     description: "Hola a todas",
-    languageCode: "zh",
     language: "Chinese",
+    languageCode: "zh",
   };
 
   const handleSpanish = async () => {
