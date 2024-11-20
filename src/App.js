@@ -64,7 +64,7 @@ function App() {
           onChange={(e) => setText(e.target.value)}
         ></textarea>
         &nbsp;&nbsp;&nbsp; &nbsp;
-        <textarea placeholder="English" readOnly value={translated}></textarea>
+        <h1>{translated}</h1>
       </div>
       <br />
       <div>
