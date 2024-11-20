@@ -22,7 +22,7 @@ function App() {
   };
   const chinese = {
     ponumber: 1,
-    podate: "24/09/1995",
+    podate: "24/09/95",
     description: "Hola a todas",
     language: "zh",
   };
