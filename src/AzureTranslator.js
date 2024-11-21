@@ -44,7 +44,7 @@ const Translator = () => {
 
   return (
     <div>
-      <h1>Azure Translator</h1>
+      <h1>Microsoft Azure Translator</h1>
 
       <textarea
         value={text}
