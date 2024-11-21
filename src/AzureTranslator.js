@@ -4,7 +4,7 @@ import axios from "axios";
 const Translator = () => {
   const [text, setText] = useState("");
   const [translatedText, setTranslatedText] = useState("");
-  const [language, setLanguage] = useState("en"); // Default translation to English
+  const [language] = useState("en"); // Default translation to English
 
   const apiKey =
     "6tPV60toj90N1iMe8Pc4Af5AuZMZDzUhCHRXbIr5wC3fQISr4eUXJQQJ99AKACULyCpXJ3w3AAAbACOGiLX7"; // Replace with your Azure API Key
