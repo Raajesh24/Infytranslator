@@ -51,13 +51,13 @@ function App() {
 
   return (
     <div className="App" style={{ margin: "25%" }}>
-      <h1>Translator</h1>
-
       <div style={{ display: "flex", justifyContent: "space-around" }}>
         <button onClick={handleSpanish}>Spanish to English</button>
         <button onClick={handleChinese}>Chinese to English</button>
         <button onClick={handleFrench}>French to English</button>
       </div>
+      <h1>Translator</h1>
+
       <div style={{ display: "flex" }}>
         <textarea
           placeholder={language}
